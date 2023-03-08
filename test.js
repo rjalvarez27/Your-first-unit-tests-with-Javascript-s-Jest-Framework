@@ -19,5 +19,5 @@ test("1 yen es igual 0.8 libras", function(){
     // importo la funcion desde app.js
     const {fromYenToPound  } = require('./app.js')
     // hago mi comparacion (la prueba)
-    expect(fromYenToPound (549.97)).toBe(429.744); 
+    expect(fromYenToPound (537.18)).toBe(429.744); 
 })
